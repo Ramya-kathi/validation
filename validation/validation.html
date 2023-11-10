@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            background-color: black;
+            color: white;
+            padding: 10px;
+            position: relative;
+            top: 1;
+        }
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 90vh;
+        }
+        .button,h2{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>Login</h2>
+        <form action="" id="loginform" class="loginform">
+            <p>
+                <label for="email" >Email :</label><br>
+                <input type="text" name="email" id="email" placeholder="enter mail">
+            </p>
+            <p>
+                <label for="password">password :</label><br>
+                <input type="Password" name="password" id="password" placeholder="enter password">
+            </p>
+            <p>
+                <label for="confirm">Confirm :</label><br>
+                <input type="password" name="confirm" id="confirm" placeholder="re-enter">
+            </p>
+            <p class="button">
+                <button type="submit" value="submit">submit</button>
+            </p>
+        </form>
+        <script src="validation.js">
+        
+        </script>
+    </div>
+</body>
+</html>
